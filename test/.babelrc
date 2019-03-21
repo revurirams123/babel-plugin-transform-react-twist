@@ -1,4 +1,14 @@
 {
-    "presets": [ "react", "env" ],
-    "plugins": [ [ "../src/index.js", { "moduleName": "../.." } ] ]
+    "presets": [
+        "@babel/preset-react",
+        "@babel/preset-env"
+    ],
+    "plugins": [
+        [
+            "../src/index.js",
+            {
+                "moduleName": "../.."
+            }
+        ]
+    ]
 }

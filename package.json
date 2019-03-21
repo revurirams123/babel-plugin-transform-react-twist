@@ -16,15 +16,16 @@
     "postversion": "git push && git push --tags"
   },
   "dependencies": {
-    "@twist/babel-plugin-transform": "git+https://git@github.com/revurirams123/babel-plugin-transform-twist.git",
-    "babel-core": "^7.0.0",
-    "babel-template": "^6.26.0",
-    "babel-types": "^6.26.0"
+    "@babel/core": "^7.0.0",
+    "@babel/template": "^7.0.0",
+    "@babel/types": "^7.0.0",
+    "@twist/babel-plugin-transform": "git+https://git@github.com/revurirams123/babel-plugin-transform-twist.git"
   },
   "devDependencies": {
-    "babel-eslint": "7.2.3",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-react": "^6.24.1",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^9.0.0",
     "eslint": "4.3.0",
     "eslint-plugin-babel": "4.1.2",
     "mocha": "^4.0.1",
