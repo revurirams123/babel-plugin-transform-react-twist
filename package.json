@@ -16,8 +16,8 @@
     "postversion": "git push && git push --tags"
   },
   "dependencies": {
-    "@twist/babel-plugin-transform": "0.2.2",
-    "babel-core": "^6.26.0",
+    "@twist/babel-plugin-transform": "git+https://git@github.com/revurirams123/babel-plugin-transform-twist.git",
+    "babel-core": "7.2.0",
     "babel-template": "^6.26.0",
     "babel-types": "^6.26.0"
   },
